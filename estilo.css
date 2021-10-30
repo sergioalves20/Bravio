@@ -1,0 +1,162 @@
+@charset "UTF-8";
+:root{
+    --color0:#FFFFFF;
+    --color1:#a7f1ee;
+    --color2:#CFF3A7;
+    --color3:#085E08;
+    --color4:#c7bcd6;
+    --color5:#CC135A;
+    --color6:#000000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+     background-color:var(--color0);
+     height:320px;
+     padding-top: 10px;
+}
+body{
+    background-color:var(--color1);
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+#prod{
+    width: 60%;
+    height: 60%;
+    padding-top: 20px;
+   
+}
+#planta{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+#planta1{
+    width:100%;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#txt{
+background-color: var(--color0);
+height: 160px;
+padding: 18px;
+}
+#title{
+text-align: left;
+font-size: 16px;
+font-family:'Quicksand Light';
+color: var(--color3);
+
+}
+#prop{
+    text-align: left;
+    font-size: 16px;
+   
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Quicksand Light';
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Quicksand Light';
+    font-size: 18px;
+    
+}
+
+main{
+    background-color: var(--color1);
+    padding: 20px;
+    padding-bottom:20px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    box-shadow: 0px 0px 5px var(--color3);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+article{
+    background-color: var(--color0);
+    padding-bottom: 5px;
+    height: 200px;
+}
+article p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Quicksand';
+    color: var(--color6);
+    padding-top: 5px;
+}
+
+
+nav{
+  background-color: var(--color0);
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+ nav a{
+    font-size: 18px;
+    font-family: 'Quicksand';
+    color: var(--color6);
+    background-color: var(--color1);
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    display: block;
+    margin-top: 5px;
+    margin: auto;
+    text-decoration: none;
+    
+   
+   
+}
+article h2{
+    padding: 10px;
+    
+}
+article h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Quicksand';
+    color: var(--color5);
+}
+footer{
+    height:120px;
+    background-color:var(--color0); 
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Quicksand';
+    color: var(--color6);
+    padding-top: 10px;
+}
+#purp{
+    font-size: 16px;
+    color: var(--color3);
+    text-align: left;
+    padding-top: 5px;
+}
+
+ 
+#logo2{
+    width: 75px;
+    height: 75px;
+}
